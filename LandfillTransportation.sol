@@ -1,0 +1,37 @@
+# Solution for model Landfill Transportation
+# Objective value = 631000
+flow[NewYork,Bronx] 0
+flow[NewYork,Brooklyn] 0
+flow[NewYork,Queens] 0
+flow[NewYork,StatenIsland] 0
+flow[NewYork,C1] 100000
+flow[NewYork,C3] 0
+flow[NewYork,C4] 0
+flow[NewYork,C6] 40000
+flow[NewYork,C7] 0
+flow[NewJersey,Brooklyn] 100000
+flow[NewJersey,Queens] 110000
+flow[NewJersey,StatenIsland] 80000
+flow[NewJersey,C1] 0
+flow[NewJersey,C7] 50000
+flow[Bronx,C2] 0
+flow[Bronx,C3] 0
+flow[Bronx,C4] 0
+flow[Bronx,C6] 0
+flow[Bronx,C7] 0
+flow[Brooklyn,C1] 0
+flow[Brooklyn,C2] 20000
+flow[Brooklyn,C3] 0
+flow[Brooklyn,C4] 70000
+flow[Brooklyn,C5] 10000
+flow[Brooklyn,C7] 0
+flow[Queens,C2] 0
+flow[Queens,C3] 0
+flow[Queens,C5] 110000
+flow[Queens,C6] 0
+flow[Queens,C7] 0
+flow[StatenIsland,C3] 80000
+flow[StatenIsland,C4] 0
+flow[StatenIsland,C5] 0
+flow[StatenIsland,C6] 0
+flow[StatenIsland,C7] 0
